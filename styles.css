@@ -1,0 +1,68 @@
+body {
+    color:white;
+    background: blueviolet;
+    margin: 8x;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 100px;
+}
+
+
+header {
+
+    border-bottom: solid 2px skyblue;
+    padding: 20px;
+    font-size: 32px;
+    color: skyblue;
+
+}
+
+
+.chamada {
+
+    background: cornflowerblue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-memes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-memes img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-memes img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+    
+}
+
+.categoria h2 {
+    color: skyblue;
+}
